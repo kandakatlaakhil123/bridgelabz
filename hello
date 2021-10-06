@@ -1,0 +1,14 @@
+#!/bin/bash -x
+read -p " enter the word " word
+for ((i=0; i<=word.length; i++))
+do
+  echo $word[1]
+first=hello
+second=batch373
+first=$second
+second=$temp
+echo "before swapping,  word are : "
+echo "first = $second, second = $first"
+echo "After swapping, word are: "
+echo "first = $first, second = $second"
+done
